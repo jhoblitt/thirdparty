@@ -77,3 +77,6 @@ documented at https://confluence.lsstcorp.org/display/DM/DM+Third+Party+Software
 %files
 
 %changelog
+* Fri Jul 24 2015 Joshua Hoblitt <josh@hoblitt.com> 1-1
+- new package built with tito
+
