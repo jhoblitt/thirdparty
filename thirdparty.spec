@@ -6,7 +6,7 @@
 
 Name:           %{?scl_prefix}thirdparty
 Version:        1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        LSST Stack thirdparty dependencies
 License:        MIT
 Url:            https://confluence.lsstcorp.org/display/DM/DM+Third+Party+Software
@@ -87,6 +87,9 @@ documented at https://confluence.lsstcorp.org/display/DM/DM+Third+Party+Software
 %files
 
 %changelog
+* Fri Jul 24 2015 Joshua Hoblitt <josh@hoblitt.com> 1-2
+- complete inspection of wiki listed packages (josh@hoblitt.com)
+
 * Fri Jul 24 2015 Joshua Hoblitt <josh@hoblitt.com> 1-1
 - new package built with tito
 
