@@ -44,7 +44,7 @@ Requires: lua-expat >= 1.1
 # epel-6 provides lua-socket 3.0
 Requires: lua-socket-devel >= 2.0.2
 # epel6 provides root-minuit2 5.34.32
-Requires: root-minuit2 >= 5.28.00
+#Requires: root-minuit2 >= 5.28.00
 # mpich2 XXX listed but does not appear to be in use
 # el6 provides 5.1.73
 Requires: mysql-devel >= 5.1.72
@@ -57,14 +57,24 @@ Requires: python27-numpy >= 1.5.1
 # oorb XXX listed by does not appear to be in use
 # palpy 1.1
 Requires: %{?scl_prefix}protobuf-devel >= 2.4.1
+# pyephem 3.7.5.1
+# pyfits 3.2.4
+Requires: %{?scl_prefix}pykg_config >= 1.20
+# pymssql 2.0.0
+# scisql 0.3
+Requires: python27-python-sqlalchemy
+# sqlite3 3.8.2
+# swig 1.3.40
+# twisted 12.0.0
+# epel-6 provides wcslib 4.3.1
+Requires: wcslib-devel >= 4.1.4
+# xpa 2.1.15
+#Requires: xrootd-devel >= 4.0.3
+# zope 3.8.0
+# zookeeper 3.4.6
 
-# swig: 3.0.2.lsst1 ok (15.2 sec).
-# zopeinterface: 3.8.0+3 ok (1.8 sec).
-# xrootd: master-g712bc98089 ok (19.5 sec).
-
-
+# not listed in wiki
 # flask: 0.10.1+9 ok (1.5 sec).
-
 
 %description
 Pulls in thirdparty packages required for building the LSST Stack as
