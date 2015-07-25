@@ -59,7 +59,7 @@ Requires: python27-numpy >= 1.5.1
 Requires: %{?scl_prefix}protobuf-devel >= 2.4.1
 # pyephem 3.7.5.1
 # pyfits 3.2.4
-Requires: %{?scl_prefix}pykg_config >= 1.20
+Requires: %{?scl_prefix}python-pykg-config >= 1.20
 # pymssql 2.0.0
 # scisql 0.3
 Requires: python27-python-sqlalchemy
