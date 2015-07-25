@@ -6,7 +6,7 @@
 
 Name:           %{?scl_prefix}thirdparty
 Version:        1
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        LSST Stack thirdparty dependencies
 License:        MIT
 Url:            https://confluence.lsstcorp.org/display/DM/DM+Third+Party+Software
@@ -87,6 +87,9 @@ documented at https://confluence.lsstcorp.org/display/DM/DM+Third+Party+Software
 %files
 
 %changelog
+* Fri Jul 24 2015 Joshua Hoblitt <josh@hoblitt.com> 1-4
+- fix python-pykg-config version req (josh@hoblitt.com)
+
 * Fri Jul 24 2015 Joshua Hoblitt <josh@hoblitt.com> 1-3
 - fix python-pykg-config package name (josh@hoblitt.com)
 
